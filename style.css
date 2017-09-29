@@ -1,0 +1,57 @@
+#control {
+    position:fixed;
+    left:-200px;
+    top:30px;
+    width:200px;
+    transition:left 1.5s;
+}
+
+#bgImageBox {
+    width:100%;
+    text-align: center;
+}
+
+.bgThumbs {
+    width:80%;
+    height:auto;
+    margin:10px auto 10px 25px;
+}
+
+#open {
+    width:60px;
+    height:60px;
+    position:absolute;
+    right:-70px;
+    top:10px;
+    
+}
+
+#close {
+    width:60px;
+    height:60px;
+    position:absolute;
+    right:-70px;
+    top:390px;
+    
+}
+
+#closeimg {
+    height:100%;
+}
+
+
+
+#openimg {
+    height:100%;
+}
+
+ /****************BACKGROUND IMAGE DIV ****************/
+#backgroundImage {
+    width:100vw;
+    height:100vh;
+    background-image:url(img/bg1.jpg);
+    background-size:cover;
+    position:absolute;
+    left:0;
+    top:0;
+}
